@@ -55,6 +55,7 @@ public class WordCounter {
 	
 	public void getCountsOfWord(HashMap<String, Integer> map) {
 		
+		@SuppressWarnings("resource")
 		Scanner scnr = new Scanner(System.in);
 		
 		System.out.println("Please enter a word to search: ");
